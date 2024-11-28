@@ -5,7 +5,7 @@ import logging
 from prompts import PROMPT_BUFFER
 
 # Замените на ваши реальные значения
-FOLDER_ID = "b1g7qjo8ml4elpitihit"
+FOLDER_ID = <"твоя папка">
 TOKEN_CACHE_FILE = "token_cache.json"
 URL = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
 
@@ -121,4 +121,4 @@ if __name__ == "__main__":
     buffer_agent.store_data(sample_data_1)
     buffer_agent.analyze_and_generate_suggestions()
     print(buffer_agent.data)
-    buffer_agent.data.to_excel("C:/Users/khabi/Python_project/barnaul/base_work/buffer.xlsx")
+    buffer_agent.data.to_excel("buffer.xlsx")
