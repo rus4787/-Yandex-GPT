@@ -159,8 +159,8 @@ class User:
         self.save_processed_data()
 
 if __name__ == "__main__":
-    input_path = "C:/Users/khabi/Python_project/barnaul/base_work/data_call_extended.xlsx"
-    output_path = "C:/Users/khabi/Python_project/barnaul/base_work/processed_data.xlsx"
+    input_path = "data_call_extended.xlsx"
+    output_path = "processed_data.xlsx"
     user_agent = User(input_path, output_path)
     user_agent.run()
 
